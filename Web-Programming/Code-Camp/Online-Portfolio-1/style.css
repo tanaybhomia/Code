@@ -1,0 +1,50 @@
+body{
+    background-color: #21222C;
+    color: #F8F8F2;
+    font-family: "JetBrainsMono Nerd Font";
+}
+.h1{
+    text-align: left;
+    text-shadow: #F8F8F2;
+    font: "JetBrainsMono Nerd Font";
+}
+small{
+    text-align: left;
+    text-shadow: #F8F8F2;
+    font: "JetBrainsMono Nerd Font";
+    font-size: 16px;
+}
+.pink{
+    color:#E4B7D5;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+p{
+    color: #F8F8F2;
+    text-align: left;
+}
+div{
+    height: 200px;
+    width: fit-content;
+}

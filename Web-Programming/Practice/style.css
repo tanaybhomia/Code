@@ -1,0 +1,22 @@
+body{
+background-color: burlywood;
+color:black;
+font-family: JetBrainsMono Nerd Font;
+}
+h1{
+text-align: center;
+font-family: JetBrainsMono Nerd Font;
+text-shadow: 3px 3px wheat;
+}
+h3{
+text-align: left;
+font-family: JetBrainsMono Nerd Font;
+text-shadow: 3px 3px wheat;
+}
+p{
+text-align: justify;
+font-family: JetBrainsMono Nerd Font;
+}
+a:visited{
+    color: black;
+}

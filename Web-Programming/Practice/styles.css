@@ -1,0 +1,17 @@
+td{
+    border: 2px;
+    color: antiquewhite;
+}
+th{
+    border: 2px;
+    color: antiquewhite;
+}
+tr{
+    border: 2px;
+    color: antiquewhite;
+}
+body{
+    background-color: #282828;
+    color: antiquewhite;
+    font-family: JetBrainsMono Nerd Font;
+}
