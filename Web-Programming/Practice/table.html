@@ -1,28 +1,40 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>
-Table Types 
-</title>
-<style>
-td,th{
-border: solid black 3px;
-padding:20px;
-}
-</style>
-<body style="background-color:purple; text:white;">
-<table cellspacing="20px" border="solid 3px">
-<tr>
-<th>Name</th>
-<th>Jill</th>
-</tr>
-<tr>
-<td rowspan="2">Phone</td>
-<td> 555-1234 </td>
-</tr>
-<tr>
-<td>1234</td>
-</tr>
-</table>
-</body>
+    <head>
+        <title>
+            Testing Rowspan and Colspan
+        </title>
+        <style>
+            table,th,td{
+                border: solid black 2px;
+                padding: 10px;
+            }
+            th{
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th rowspan="2" style="text-align: left;">Name</th>
+                <td>Tanay</td>
+            </tr>
+            <tr>
+                <td>Manan</td>
+            </tr>
+            <tr>
+                <th rowspan="2" style="width: 20px; text-align: left; vertical-align: top;">Class</th>
+                <td>10th</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+            </tr>
+        </table>
+        <form>
+        <lable for="name">Name:</lable>
+        <input type="text" value="Enter Name" id="name"><br>
+        <lable for ="password">Password:</lable>
+        <input type="password" id=password>
+    </body>
 </html>
-

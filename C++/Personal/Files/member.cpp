@@ -1,25 +1,30 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
-class area
+class A
 {
-    public:
-    int a,b;
-    area()
-    {
-        cout<<"\nAns is "<<a*b;
-    }
-    area(int a,int b)
-    {
-        
-    }
+	public:
+	int no1;
+	void out();
+	void in();
+	void sq();
 };
-int main() 
+void A::out()
 {
-    int a1,b1;
-    cout<<"\nEnter 2 numbers";
-    cin>>a1>>b1;
-    area obj;
-    area obj1(a1,b1);
-    return 0;
+	cout<<"Enter the Variable = ";
+}
+void A::in()
+{
+	cin>>no1;
+}
+void A::sq()
+{
+	cout<<"Square of the Variable is = "<<no1*no1;
+}
+int main()
+{
+	A obj;
+	obj.out();
+	obj.in();
+	obj.sq();
+	return 0;
 }

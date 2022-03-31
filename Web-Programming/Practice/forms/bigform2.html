@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Form for Reservation
+        </title>
+    </head>
+    <style>
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        form{
+            box-shadow: 2px;
+        }
+        body{
+            background-color: antiquewhite;
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+    <body>
+        <h1><b>Travel Reservation</b></h1>
+        <h4><b>(*) denotes mendetory </b></h4>
+        <form>
+            <label for="fname" id="fname"><sup>*</sup>Full Name : </label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="email" id="email"><sup>*</sup>Email address : </label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="place" id="place"><sup>*</sup>Select Tour Package : </label><br>
+            <select id="place" name="place">
+                <option value="Goa">Goa</option>
+                <option value="Goa">Udaipur</option>
+                <option value="Goa">Jaipur</option>
+            </select><br>
+            <label for="adate" id="adate"><sup>*</sup>Arrival Date : </label><br>
+            <input type="date" id="adate" name="adate"><br>
+            <label for="nop" id="nop"><sup>*</sup>Number of Persons  : </label><br>
+            <input type="nop" id="nop" name="nop"><br>
+            <label for="meaning" id="meaning"><sup>*</sup>What do you want to avail  : </label><br>
+            <input type="radio" id="Boarding" value="Boarding"> <label for="Boarding" id="Boarding">Boarding</label><br>
+            <input type="radio" id="Fooding" value="Fooding"> <label for="Fooding" id="Fooding">Fooding</label><br>
+            <input type="radio" id="Sight Seeing" value="Sight Seeing"> <label for="Sight Seeing" id="Sight Seeing">Sight Seeing</label><br>
+            <label for="code" id="code"><sup>*</sup>Discout Cupon Code : </label><br>
+            <input type="code" id="code" name="code"><br>
+            <label for="agree" name="agree"><sup>*</sup>Terms and Conditions : </label><br>
+            <input type="radio" id="agree" value="agree"><label for="Boarding" id="Boarding">Agree</label>
+            <input type="radio" id="dis" value="dis"><label for="Disagree" id="Disagree">Disagree</label><br>
+            <button type="submit" value="submit" name="submit">Submit </button>
+        </form>
+    </body>
+</html>
