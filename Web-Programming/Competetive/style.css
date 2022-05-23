@@ -1,0 +1,90 @@
+nav
+{
+    list-style-type: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: (0,0,0,0.0);
+}
+
+body
+{
+    background-color: #3b4252;
+    color: #dbdcde;
+    font-family: JetBrainsMono Nerd Font
+}
+
+#about
+{
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    float: left;
+    font-size: 48px;
+    color: #a3be8c;
+    text-shadow: #a3be8d 1px 1px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 2px;
+    color: #dbdcde;
+}
+  
+li
+{
+    display: inline;
+    margin-right: 40px;
+    border-right: #dbdcde;
+    border-radius: 8px;
+}
+
+a:link 
+{
+    color: #dbdcde;
+}
+
+a:visited 
+{
+    color: #b48ead;
+}
+
+a:hover 
+{
+    color: #bf616a;
+}
+  
+a:active 
+{
+    color: a3be8c;
+}
+
+p
+{
+    color: #d8dee9;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 10px;
+    float: left;
+    font-size: 16px;
+}
+button
+{
+    background-color: #3b4252;
+    border-color: #e5e9f0;
+    border-radius: 4px;
+    box-shadow: #e5e9f0 1px 1px;
+    border-width: 1px;
+    text-align: center;
+    font-size: 16px;
+    color: #d8dee4;
+    margin-top: 50px;
+    padding: 10px 25px;
+    float: left;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+button:hover
+{
+    background-color: #a3be8c;
+}
