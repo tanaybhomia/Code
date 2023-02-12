@@ -1,0 +1,11 @@
+DECLARE
+
+create or replace procedure insertstudent (id in number, name in varchar)
+is 
+
+BEGIN 
+
+insert into Student values (id,name);
+
+END;
+/

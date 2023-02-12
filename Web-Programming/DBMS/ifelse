@@ -1,0 +1,27 @@
+DECLARE 
+
+n1 number:= 21;
+n2 number:= 22;
+n3 number:= 23;
+
+BEGIN 
+
+if ((n3>n1) && (n3>n2)) then
+{
+    dbms_output.put_line(n3 || " Is the Greatest Number ");
+}
+
+else-if ((n2>n1) && (n2>n3)) then
+{
+    dbms_output.put_line(n3 || " Is the Greatest Number ");
+}
+
+else-if ((n1>n2) && (n1>n3))
+{
+    dbms_output.put_line(n1 || " is the Greatest Number ");
+}
+
+End if;
+
+END;
+/

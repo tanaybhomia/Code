@@ -1,0 +1,14 @@
+DECLARE
+n1 in number ;
+n2 in number ;
+n3 in number ;
+
+BEGIN
+n1:=3;
+n2:=4;
+n3=n1+n2;
+
+dbms_output.put_line("SUM OF 2 Number :=||n3)
+
+END;
+/
