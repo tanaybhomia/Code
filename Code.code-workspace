@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"files.autoSave": "onFocusChange"
+		"files.autoSave": "onFocusChange",
+		"dotnet.defaultSolution": "AWP/Fibonnaci/Fibonnaci.sln"
 	}
 }
