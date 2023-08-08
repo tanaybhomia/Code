@@ -8,8 +8,8 @@ from transformers import pipeline
 app = Flask(__name__)
 
 # Connect to Couchbase
-cluster = Cluster('couchbase://localhost')
-authenticator = PasswordAuthenticator('username', 'password')  # Replace with your Couchbase credentials
+cluster = Cluster('http://localhost:8091/')
+authenticator = PasswordAuthenticator('tanaybhomia', 'cacdam123')  # Replace with your Couchbase credentials
 cluster.authenticate(authenticator)
 bucket = cluster.bucket('expenses_bucket')
 expenses_collection = bucket.default_collection()
