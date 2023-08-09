@@ -1,4 +1,3 @@
-from imaplib import _Authenticator
 from flask import Flask, request, render_template
 from couchbase.auth import PasswordAuthenticator
 from couchbase.cluster import Cluster
@@ -6,7 +5,7 @@ from couchbase.options import ClusterOptions
 import re
 import datetime
 import dateparser
-from transformers import pipeline
+from transformers import BertForSequenceClassification, BertTokenizer
 
 app = Flask(__name__)
 
@@ -16,8 +15,9 @@ cluster = Cluster('couchbase://localhost',
 bucket = cluster.bucket('expenses_bucket')
 expenses_collection = bucket.default_collection()
 
-# Load pre-trained text classification model
-category_classifier = pipeline("text-classification", model="nlptown/bert-base-multilingual-uncased-sentiment")
+# Load pre-trained text classification model and tokenizer
+classification_model = BertForSequenceClassification.from_pretrained('bert-base-uncased')
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 # Chatbot interface
 @app.route("/", methods=["GET", "POST"])
@@ -40,9 +40,15 @@ def chatbot():
         else:
             return "Invalid input format. Please enter: 'Item for Cost on Date'"
 
-        # Use the pre-trained model to predict the category
-        category_result = category_classifier(expense_name)[0]
-        expense_category = category_result["label"]
+        # Use the pre-trained classification model to predict the category
+        encoded_input = tokenizer(expense_name, return_tensors='pt', padding=True, truncation=True)
+        with torch.no_grad():
+            logits = classification_model(**encoded_input).logits
+            predicted_class = torch.argmax(logits, dim=1).item()
+        
+        # Assuming you have a list of expense categories, you can map the predicted class index to a category
+        expense_categories = ["Groceries", "Electronics", "Dining", "Travel", "Miscellaneous"]
+        expense_category = expense_categories[predicted_class]
 
         # Store the extracted data in Couchbase
         expense_data = {
