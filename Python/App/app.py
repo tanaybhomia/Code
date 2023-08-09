@@ -6,6 +6,7 @@ import re
 import datetime
 import dateparser
 from transformers import BertForSequenceClassification, BertTokenizer
+import torch
 
 app = Flask(__name__)
 
