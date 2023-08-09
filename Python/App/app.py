@@ -1,5 +1,8 @@
+from imaplib import _Authenticator
 from flask import Flask, request, render_template
-from couchbase.cluster import Cluster, PasswordAuthenticator
+from couchbase.auth import PasswordAuthenticator
+from couchbase.cluster import Cluster
+from couchbase.options import ClusterOptions
 import re
 import datetime
 import dateparser
@@ -8,9 +11,8 @@ from transformers import pipeline
 app = Flask(__name__)
 
 # Connect to Couchbase
-cluster = Cluster('http://localhost:8091/')
-authenticator = PasswordAuthenticator('tanaybhomia', 'cacdam123')  # Replace with your Couchbase credentials
-cluster.authenticate(authenticator)
+cluster = Cluster('couchbase://localhost',
+                  ClusterOptions(PasswordAuthenticator('tanaybhomia', 'cacdam123')))
 bucket = cluster.bucket('expenses_bucket')
 expenses_collection = bucket.default_collection()
 
