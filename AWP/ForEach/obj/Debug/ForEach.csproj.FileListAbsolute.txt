@@ -1,0 +1,7 @@
+C:\Users\Tanay\Documents\Github\Code\AWP\ForEach\bin\Debug\ForEach.exe.config
+C:\Users\Tanay\Documents\Github\Code\AWP\ForEach\bin\Debug\ForEach.exe
+C:\Users\Tanay\Documents\Github\Code\AWP\ForEach\bin\Debug\ForEach.pdb
+C:\Users\Tanay\Documents\Github\Code\AWP\ForEach\obj\Debug\ForEach.csproj.AssemblyReference.cache
+C:\Users\Tanay\Documents\Github\Code\AWP\ForEach\obj\Debug\ForEach.csproj.CoreCompileInputs.cache
+C:\Users\Tanay\Documents\Github\Code\AWP\ForEach\obj\Debug\ForEach.exe
+C:\Users\Tanay\Documents\Github\Code\AWP\ForEach\obj\Debug\ForEach.pdb

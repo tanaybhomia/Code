@@ -1,0 +1,7 @@
+C:\Users\Tanay\Documents\Github\Code\AWP\Vowels\bin\Debug\Vowels.exe.config
+C:\Users\Tanay\Documents\Github\Code\AWP\Vowels\bin\Debug\Vowels.exe
+C:\Users\Tanay\Documents\Github\Code\AWP\Vowels\bin\Debug\Vowels.pdb
+C:\Users\Tanay\Documents\Github\Code\AWP\Vowels\obj\Debug\Vowels.csproj.AssemblyReference.cache
+C:\Users\Tanay\Documents\Github\Code\AWP\Vowels\obj\Debug\Vowels.csproj.CoreCompileInputs.cache
+C:\Users\Tanay\Documents\Github\Code\AWP\Vowels\obj\Debug\Vowels.exe
+C:\Users\Tanay\Documents\Github\Code\AWP\Vowels\obj\Debug\Vowels.pdb

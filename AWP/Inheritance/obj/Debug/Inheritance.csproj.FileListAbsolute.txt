@@ -1,0 +1,7 @@
+C:\Users\Tanay\Documents\Github\Code\AWP\Inheritance\obj\Debug\Inheritance.csproj.AssemblyReference.cache
+C:\Users\Tanay\Documents\Github\Code\AWP\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Tanay\Documents\Github\Code\AWP\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\Tanay\Documents\Github\Code\AWP\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\Tanay\Documents\Github\Code\AWP\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\Tanay\Documents\Github\Code\AWP\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\Tanay\Documents\Github\Code\AWP\Inheritance\obj\Debug\Inheritance.pdb

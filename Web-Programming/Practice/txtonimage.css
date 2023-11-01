@@ -1,0 +1,16 @@
+.image1
+{
+	height: auto;
+	width: auto;
+}
+.image1 img
+{
+	width: 800px;
+	height: 500px;
+	z-index: -1;
+	opacity: 0.5;
+}
+.text
+{
+	
+}

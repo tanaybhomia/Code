@@ -1,0 +1,20 @@
+import pandas as pd
+import random
+
+# Define the categories
+categories = ["Grocery", "Electronics", "Clothing", "Furniture", "Books", "Toys", "Appliances", "Sports", "Beauty", "Jewelry"]
+
+# Generate a list of random items and categories
+items = []
+for _ in range(100):  # Adjust the number as needed
+    item = {
+        "Item Name": f"Item_{random.randint(1, 10000)}",
+        "Category": random.choice(categories)
+    }
+    items.append(item)
+
+# Create a DataFrame
+df = pd.DataFrame(items)
+
+# Save the DataFrame to a CSV file
+df.to_csv("item_categories.csv", index=False)
