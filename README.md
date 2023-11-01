@@ -1,4 +1,4 @@
-# Hey Their 
+# Hello, 
 
 This is my personal repository where I upload all the code from College Practicals and Practice which I do on competetive websites like *[CODECHEF](www.codechef.com).* 
 
