@@ -15,3 +15,13 @@
 	</div>
 </body>
 </html>
+
+@{
+	var mychart = new Chart(height:200, width:200)
+	.AddTitle("MyChart"),
+	.AddSeries(ChartType="Bar",
+		xvalue: [] {20,30,40,50},
+		yvalue: [] {20,30,40,50}),
+	.Write();
+	)
+}

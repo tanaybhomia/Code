@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>Asp5.jpeg</ImageUrl>
+		<NavigateUrl>Webform1.aspx</NavigateUrl>
+		<AlternateText>Ad1</AlternateText>
+	</Ad>
+	<Ad>
+		<ImageUrl>ASP2.jpeg</ImageUrl>
+		<NavigateUrl>Webform1.aspx</NavigateUrl>
+		<AlternateText>Ad1</AlternateText>
+	</Ad>
+	<Ad>
+		<ImageUrl>Asp3.jpg</ImageUrl>
+		<NavigateUrl>Webform1.aspx</NavigateUrl>
+
+		<AlternateText>Ad1</AlternateText>
+	</Ad>
+	<Ad>
+		<ImageUrl>Asp4.webp</ImageUrl>
+		<NavigateUrl>Webform1.aspx</NavigateUrl>
+
+		<AlternateText>Ad1</AlternateText>
+	</Ad>
+	<Ad>
+		<ImageUrl>Asp5.jpg</ImageUrl>
+		<NavigateUrl>Webform1.aspx</NavigateUrl>
+
+		<AlternateText>Ad1</AlternateText>
+	</Ad>
+</Advertisements>

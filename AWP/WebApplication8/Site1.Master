@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication8.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title></title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+
+	<form id="form1" runat="server">
+        	<link href="Stylesheet1.css" rel="stylesheet" type="text/css" />
+<div>
+<header id="header">
+St.John college of humanities and sciences
+</header>
+<nav id="navigation">
+<ul>
+<li> <a href="Home1.aspx">Home</a></li>
+<li> <a href="ContactUs.aspx">ContactUs</a></li>
+<li> <a href="AboutUs.aspx">AboutUs</a></li>
+<li> <a href="Academics.aspx">Academics</a></li>
+</ul>
+</nav>
+<aside id="side">
+<h1>News</h1>
+<a href="Syllabus.aspx">Syllabus</a>
+<a href="Timetable.aspx">Timetable</a>
+</aside>
+<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+</asp:ContentPlaceHolder>
+<footer id="footer">Copyright@SJCHS</footer>
+
+        	<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        	</asp:ContentPlaceHolder>
+    	</div>
+	</form>
+</body>
+</html>
+
+Stylesheet.css
+body {
+	background-color: gray;
+	font: italic;
+	font-family:Times New Roman;font-size:18px;
+}
+
+Skin1.skin
+<asp:Label runat="server" ForeColor="red" Font-Size="14px" />

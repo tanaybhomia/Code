@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+	<siteMapNode url="SJCHS.aspx" title="SJCHS"  description="SJCHS">
+		<siteMapNode url="Science.aspx" title="Science"  description="Science" />
+		<siteMapNode url="BSCIT.aspx" title="BSCIT"  description="BSCIT" />
+		<siteMapNode url="HS.aspx" title="HS"  description="HS"/>
+		<siteMapNode url="Commerce.aspx" title="Commerce"  description="Commerce" />
+		<siteMapNode url="BAF.aspx" title="BAF"  description="BAF" />
+		<siteMapNode url="BBI.aspx" title="BBI"  description="BBI" />
+		<siteMapNode url="BMS.aspx" title="BMS"  description="BMS" />
+		<siteMapNode url="BCOM.aspx" title="BCOM"  description="BCOM" />
+	</siteMapNode>
+</siteMap>

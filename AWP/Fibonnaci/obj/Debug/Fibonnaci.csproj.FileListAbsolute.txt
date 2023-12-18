@@ -1,7 +1,0 @@
-C:\Users\Tanay\Documents\Github\Code\AWP\Fibonnaci\bin\Debug\Fibonnaci.exe.config
-C:\Users\Tanay\Documents\Github\Code\AWP\Fibonnaci\bin\Debug\Fibonnaci.exe
-C:\Users\Tanay\Documents\Github\Code\AWP\Fibonnaci\bin\Debug\Fibonnaci.pdb
-C:\Users\Tanay\Documents\Github\Code\AWP\Fibonnaci\obj\Debug\Fibonnaci.csproj.AssemblyReference.cache
-C:\Users\Tanay\Documents\Github\Code\AWP\Fibonnaci\obj\Debug\Fibonnaci.csproj.CoreCompileInputs.cache
-C:\Users\Tanay\Documents\Github\Code\AWP\Fibonnaci\obj\Debug\Fibonnaci.exe
-C:\Users\Tanay\Documents\Github\Code\AWP\Fibonnaci\obj\Debug\Fibonnaci.pdb
